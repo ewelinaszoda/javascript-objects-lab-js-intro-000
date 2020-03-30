@@ -1,5 +1,5 @@
 function updateObjectWithKeyAndValue(object, key, value) {
-  let cloneObj = Object.assign({}, object, {[key]: value});
+  let cloneObject = Object.assign({}, object, {[key]: value});
   cloneObject[key] = value;
   return cloneObject;
 }
